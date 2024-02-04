@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fjalla+One&family=Indie+Flower&family=Sedgwick+Ave&display=swap');
+
+.container {
+    height: 800px;
+    width: 1010px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex {
+    height: 190px;
+    width: 190px;
+    margin: 5px 1px;
+    box-shadow: -6px 9px 5px 0px rgba(0,0,0,0.82);
+    -webkit-box-shadow: -6px 9px 5px 0px rgba(0,0,0,0.82);
+    -moz-box-shadow: -6px 9px 5px 0px rgba(0,0,0,0.82);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    transform:
+            perspective(750px)
+            translate3d(0px, 0px, -250px)
+            rotateX(27deg)
+            scale(0.9, 0.9);
+    border-radius: 20px;
+    border: 5px solid #e6e6e6;
+    /*box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);*/
+    transition: 0.4s ease-in-out transform;
+
+    &:hover {
+        transform: translate3d(0px, 0px, -250px);
+    }
+}
+
+h1 {
+    justify-content: center;
+    font-size: xxx-large;
+}
+p{
+    color: #f8f6f6;
+    font-size: large;
+    font-family: 'Dancing Script', cursive;
+}
+.dark-text{
+    color: black;
+}
+.white{
+    background-color: #FFFFFF;
+}
+.blue{
+    background-color: #0000FF;
+}
+.green{
+    background-color: #00FF00;
+}
+.red{
+    background-color: #FF0000;
+}
+.fuchsia{
+    background-color: #FF00FF;
+}
+.yellow{
+    background-color: #FFFF00;
+}
+.white{
+    background-color: #FFFFFF;
+}
+.purple{
+    background-color: #800080;
+}
+.olive{
+    background-color: #808000;
+}
+.black{
+    background-color: #000000;
+}
+.maroon{
+    background-color: #800000;
+}
+/*font-family: 'Dancing Script', cursive;*/
+/*font-family: 'Fjalla One', sans-serif;*/
+/*font-family: 'Indie Flower', cursive;*/
+/*font-family: 'Sedgwick Ave', cursive;*/
+
