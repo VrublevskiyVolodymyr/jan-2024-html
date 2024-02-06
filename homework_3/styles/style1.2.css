@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    color: #FFF;
+}
+
+/*___________________________________General____________________________________________*/
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-dark {
+    color: #000;
+}
+
+/*_____________________________________HEADER_______________________________________*/
+header {
+    height: 20vh;
+    background: #8D8484;
+}
+
+/*_____________________________________MAIN________________________________________*/
+main {
+    height: 60vh;
+    display: flex;
+}
+
+.sections {
+    height: 60vh;
+    width: 73vw;
+    margin: 0;
+}
+
+.content-1 {
+    height: 33.7%;
+    background: #776969;
+}
+
+.content-2 {
+    height: 34.8%;
+    background: #643030;
+}
+
+.content-3 {
+    height: 31.5%;
+    background: #441818;
+}
+
+.asides {
+    background: #817C7C;
+    height: 60vh;
+    width: 27vw;
+}
+
+.spam-1 {
+    height: 48.4%;
+    background: #937575;
+}
+
+.spam-2 {
+    height: 51.6%;
+    background: #644C4C;
+}
+
+p {
+    margin: 0;
+}
+
+/*_______________________________FOOTER_____________________________________________*/
+footer {
+    height: 20vh;
+    background: #BDBDBD;
+}
+
+

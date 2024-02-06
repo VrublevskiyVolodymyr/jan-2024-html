@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 20vh;
+    background: #927D7D;
+}
+
+main {
+    height: 60vh;
+    display: flex;
+}
+
+article {
+    height: 100%;
+    width: 20%;
+    background: #817C7C;
+}
+
+section {
+    background: #A74848;
+    height: 100%;
+    width: 60%;
+}
+
+aside {
+    background: #B7AEAE;
+    height: 100%;
+    width: 20%;
+}
+
+footer {
+    height: 20vh;
+    background: #BDBDBD;
+}
