@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+/*______________________________________CONTAINER_________________________________________________*/
+.container {
+    height: 100vh;
+    width: 80vw;
+    margin: 0 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*____________________________________________MAIN___________________________________________________*/
+main {
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dfdfdf;
+}
+
+
+main img {
+    margin: 30px;
+}
+
+form {
+    height: 35vh;
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+input {
+    width: 97%;
+    height: 26%;
+    font-size: 17px;
+    text-overflow: ellipsis;
+    background: #f9f9f9;
+    border: 2px solid #dfdfdf;
+    margin: 5px;
+    padding: 5px;
+}
+
+button {
+    width: 100%;
+    height: 38%;
+    font-size: 17px;
+    background: #68b4f9;
+    border-radius: 10px;
+    color: #f8f6f6;
+    border:none;
+    margin: 10px 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.or {
+    color: #6a6a6a;
+}
+
+.facebook, h4 a {
+    color: #314c80;
+    text-decoration: none;
+}
+
+h3 img {
+    margin: 0;
+    width: 30px;
+    vertical-align: middle;
+}
+
+/*_____________________________________________FOOTER__________________________________________________*/
+footer {
+    width: 40%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #dfdfdf;
+}
+
+footer span a {
+    color: #008ef5;
+    text-decoration: none;
+}
