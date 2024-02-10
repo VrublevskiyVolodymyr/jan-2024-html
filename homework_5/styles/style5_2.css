@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.block {
+    width: 80vw;
+    height: 30vw;
+}
+
+.block > h2 {
+    margin: 0;
+}
+
+.block > ul {
+    margin: 5px;
+}
+
+#block1 > ul > li:nth-child(odd) {
+    color: pink;
+}
+
+#block2 > ul > li:nth-child(even) {
+    font-size: 22px;
+}
+
+#block3 > ul > li:nth-child(2n+4)::after {
+    content: "!";
+}
+
+#block4 > ul > li:last-child {
+    color: purple;
+}
+
+#block5 > ul > li:first-letter {
+    color: red;
+    font-size: 30px;
+}
