@@ -1,0 +1,31 @@
+@media screen  and (max-width: 720px) {
+    .container {
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    .a {
+        height: 16%;
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .box {
+        height: 82%;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .b {
+        height: 75%;
+        width: auto;
+        border-radius: 10px;
+    }
+
+    .c {
+        height: 15%;
+        width: auto;
+        border-radius: 10px;
+    }
+}

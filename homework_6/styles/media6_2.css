@@ -1,0 +1,26 @@
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .container {
+        display: grid;
+        grid-template-areas:
+        "a    a    a"
+        "b    b    b"
+        "b    b    b"
+        "cde cde cde"
+        "f    f    f";
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-gap: 3vh;
+        padding: 3vh;
+    }
+
+    .c, .d, .e {
+        height: calc((100vw - 10vh - 6vh) / 3);
+        width: calc((100vw - 10vh - 6vh) / 3);
+    }
+
+    .box-1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
