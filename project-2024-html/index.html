@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Project</title>
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/media-300-500.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
@@ -17,7 +18,7 @@
 </head>
 <body>
 
-<div class="page-1">
+<div class="section-1">
 
     <header>
         <div class="logo">
@@ -40,13 +41,13 @@
             <h1>Build Your Awesome Platform</h1>
             <p>Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will
                 provide the best service for those of you who use our services.</p>
-            <button> <a href="#servises">Our Services</a></button>
+            <button><a href="#servises">Our Services</a></button>
         </article>
         <img src="images/page1/man.png" alt="man">
     </main>
 </div>
 
-<section class="section-1">
+<section class="section-2">
     <div class="text">
         <h2>Why Enver Is The Best Choice?</h2>
         <p>Watch this one minute video so you understand why you should use our services!</p>
@@ -54,42 +55,44 @@
     <img src="images/page2/conference.png" alt="conference">
 </section>
 
-<section class="section-2" id="servises">
+<section class="section-3" id="servises">
     <h3>The Service We Provide For You</h3>
     <div class="cards">
 
         <div class="card">
-            <img src="images/page3/code-blue.png" alt="code-blue">
-            <h3>Development</h3>
+            <div class="img">
+                <img src="images/page3/code-blue.png" alt="code-blue">
+            </div>
+            <h3><a href="https://owu.com.ua/kurs-fullstack"></a>Development</h3>
             <p>Create a platform with the best and coolest quality from us.</p>
         </div>
 
         <div class="card">
-            <img src="images/page3/layer.png" alt="layer">
+            <div class="img"><img src="images/page3/layer.png" alt="layer"></div>
             <h3>UI/UX Designer</h3>
             <p>We provide UI/UX Design services, and of course with the best quality</p>
         </div>
 
         <div class="card">
-            <img src="images/page3/code-yellow.png" alt="code-yellow">
+            <div class="img"><img src="images/page3/code-yellow.png" alt="code-yellow"></div>
             <h3>Graphik Designer</h3>
             <p>We provide Graphic Design services, with the best designers</p>
         </div>
 
         <div class="card">
-            <img src="images/page3/align-vertically.png" alt="align-vertically">
+            <div class="img"><img src="images/page3/align-vertically.png" alt="align-vertically"></div>
             <h3>Motion Graphik</h3>
             <p>Create a platform with the best and coolest quality from us.</p>
         </div>
 
         <div class="card">
-            <img src="images/page3/camera.png" alt="camera">
+            <div class="img"><img src="images/page3/camera.png" alt="camera"></div>
             <h3>Photography</h3>
             <p>We provide Photography services, and of course with the best quality</p>
         </div>
 
         <div class="card">
-            <img src="images/page3/video-play.png" alt="video-play">
+            <div class="img"><img src="images/page3/video-play.png" alt="video-play"></div>
             <h3>Videography</h3>
             <p>Create a platform with the best and coolest quality from us.</p>
         </div>
@@ -97,21 +100,25 @@
     </div>
 </section>
 
-<section class="section-3" id="projects">
+<section class="section-4" id="projects">
 
-    <div class="portofolio">
+    <div class="portfolio">
         <h2>Our Awesome Portofolio</h2>
-        <div class="portofolio-cards">
-            <div class="portofolio-card">
+        <div class="portfolio-cards">
+            <div class="portfolio-card">
                 <img src="images/page4/movies.png" alt="movies">
             </div>
-            <div class="portofolio-card">
+            <div class="portfolio-card">
                 <img src="images/page4/interior.png" alt="interior">
             </div>
-            <div class="portofolio-card">
+            <div class="portfolio-card">
                 <img src="images/page4/popular-progects.png" alt="popular-progects">
             </div>
         </div>
+    </div>
+    <div class="group-portfolio">
+        <h2>Our Awesome Portofolio</h2>
+        <div><img src="images/page4/group-portfolio.png" alt="group-portfolio"></div>
     </div>
 
 </section>
@@ -128,14 +135,16 @@
             <span>Enver</span>
         </div>
         <div class="legal-links">
-            <a href="#">Support</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms and Conditions</a>
+            <span>Support</span>
+            <span>Privacy Policy</span>
+            <span>Terms and Conditions</span>
         </div>
         <div class="copyright-information">© 2024 Enver, All right reserved</div>
     </div>
 
 </footer>
-<div class="fix"></div>
+
+<section class="background"></section>
+
 </body>
 </html>
